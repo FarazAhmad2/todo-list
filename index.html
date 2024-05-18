@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 id="heading-1">To-Do List</h1>
+        <section id="first">
+            <input type="text" id="item-name" placeholder="Item Name">
+            <div class="input-container">
+                <input type="text" class="date-input" placeholder="Deadline">
+                <img class="icon" src="./asset/date_picker_icon.svg" alt="date-icon">
+            </div>
+            <select id="priority">
+                <option value="">Priority</option>
+                <option class="priority" value="Low">Low</option>
+                <option class="priority" value="Medium">Medium</option>
+                <option class="priority" value="High">High</option>
+            </select>
+            <button id="add-item">Add Item</button>
+        </section>
+
+        <h2 class="sub-heading">Today’s TodoList</h3>
+            <section id="second">
+                <!-- <div class="container">
+                    <p>1. AccioJob Assignment</p>
+                    <p>16/1/2022</p>
+                    <p>Priority: High</p>
+                    <div class="img-fluid">
+                        <div class="check-icon"><img class="tick" src="./asset/check-circle.svg" alt="check-circle"><img
+                                class="circle" src="./asset/circle.svg" alt="check-circle"> </div>
+                        <div class="trash-icon">
+                            <img class="trash" src="./asset/trash_icon.svg" alt="trash-icon">
+                            <img class="lid" src="./asset/trash_lid.svg" alt="trash-icon">
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+
+        <h2 class="sub-heading">Future TodoList</h3>
+            <section id="third">
+                <!-- <div class="container">
+                    <p>2. AccioJob Assignment</p>
+                    <p>18/1/2022</p>
+                    <p>Priority: High</p>
+                    <div class="img-fluid">
+                        <div class="check-icon"><img class="tick" src="./asset/check-circle.svg" alt="check-circle"><img
+                                class="circle" src="./asset/circle.svg" alt="check-circle"> </div>
+                        <div class="trash-icon">
+                            <img class="trash" src="./asset/trash_icon.svg" alt="trash-icon">
+                            <img class="lid" src="./asset/trash_lid.svg" alt="trash-icon">
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+
+        <h2 class="sub-heading">Completed TodoList</h3>
+            <section id="fourth">
+                <!-- <div class="container">
+                    <p>2. AccioJob Assignment</p>
+                    <p>18/1/2022</p>
+                    <p>Priority: High</p>
+                    <div class="img-fluid">
+                        <div class="trash-icon">
+                            <img class="trash" src="./asset/trash2.svg" alt="trash-icon">
+                            <img class="lid" src="./asset/lid2.svg" alt="trash-icon">
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
